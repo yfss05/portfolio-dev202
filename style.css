@@ -1,0 +1,94 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: monospace;
+      line-height: 1.6;
+      background: #f5f5f5;
+    }
+
+
+    .about-section {
+      background: white;
+      padding: 2rem;
+      margin: 0 auto 2rem auto;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+
+    .tag {
+      background: var(--secondary);
+      padding: 0.25rem 0.75rem;
+      border-radius: 15px;
+      font-size: 0.9em;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      /* Add a dashed border to make it clear where to add content */
+      border: 2px;
+    }
+
+    .student-section h2 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    .placeholder-text {
+      color: #666;
+      font-style: italic;
+    }
+
+    .card img {
+
+      border-radius: 50%;
+      width: 50%;
+      margin: 10px auto;
+
+
+    }
+
+    .card-footer {
+      width: 50px;
+      margin: 0 auto;
+      border: transparent;
+      background-color: rgba(17, 17, 17, 0.137);
+
+    }
+
+    .old {
+
+      background-color: #f5f5f5;
+      text-decoration: line-through;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-title {
+      font-size: 1.7rem;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif
+    }
+
+    .card {
+      transition: all 0.3s ease-in-out;
+    }
+  
